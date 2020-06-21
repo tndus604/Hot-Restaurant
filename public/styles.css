@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.342) ), url(./restaurant_image.png);
+    height: 350px;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        width: 100%;
+        height: 200px;
+        padding-top: 80px;
+    }
+
+}

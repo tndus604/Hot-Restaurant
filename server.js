@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // page requests
-app.use(express.static('html'))
+app.use(express.static('public'))
 
 //==========================================
 //making tables array and waitinglist array
